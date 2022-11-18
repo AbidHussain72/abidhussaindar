@@ -36,7 +36,7 @@ html {
 }
 
 .menu-btn {
-    color: #000;
+    color: rgb(255, 255, 255);
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -58,7 +58,7 @@ html {
 }
 
 .navbar.sticky {
-    background: #00a9c7b0;
+    background: #272727a4;
     padding: 10px 0;
     color: #fff;
     backdrop-filter: blur(10px);
@@ -71,18 +71,21 @@ html {
 }
 
 .navbar .logo a {
-    color: #151515;
+    color: #272727;
     font-size: 35px;
     font-weight: 600;
 }
-
+.navbar.sticky .logo a{
+    color: #fff;
+}
 .navbar .logo a span {
-    color: #026b7e;
+    
+    color: #0264a1;
     transition: all 0.3s ease;
 }
 
 .navbar.sticky .logo a span {
-    color: #fff;
+    color: #1982c4;
 }
 
 .navbar .menu li {
@@ -92,19 +95,21 @@ html {
 
 .navbar .menu li a {
     display: block;
-    color: #ffffff;
+    color: #272727;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
-
+.navbar.sticky .menu li a{
+    color:#fff;
+}
 .navbar.sticky .menu li a:hover {
     color: #cbf3f0;
 }
 
 .navbar .menu li a:hover {
-    color: #026b7e;
+    color: #1982c4;;
 }
 
 .home {
@@ -138,24 +143,24 @@ html {
 }
 
 .home .home-content .text-3 span {
-    color: #026b7e;
+    color: #1982c4;
     font-weight: 500;
 }
 
 .home .home-content a {
     display: inline-block;
-    background: #a3a3a3;
+    background: #272727;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 7px;
-    border: 2px solid #a3a3a3;
+    border: 1.5px solid #272727;
     transition: all 0.3s ease-out;
 }
 
 .home .home-content a:hover {
-    color: #a3a3a3;
+    color: #272727;
     background: transparent;
 }
 
@@ -197,7 +202,7 @@ section .title::after {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: #026b7e;
+    color: #272727;
     padding: 5px;
     background-color: rgb(255, 255, 255);
     transform: translateX(-50%);
@@ -239,7 +244,7 @@ section .title::after {
 }
 
 .about .about-content .right .text span {
-    color: #026b7e;
+    color: #1982c4;
 }
 
 .about .about-content .right p {
@@ -248,18 +253,18 @@ section .title::after {
 
 .about .about-content .right a {
     display: inline-block;
-    background: #a3a3a3;
+    background: #272727;
     color: #fff;
     font-size: 20px;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 7px;
-    border: 2px solid #bcbcbc;
+    border: 1px solid #272727;
     transition: all 0.3s ease-out;
 }
 
 .about .about-content .right a:hover {
-    color: #b9b8b8;
+    color: #272727;
     background: none;
 }
 
@@ -302,7 +307,7 @@ section .title::after {
 
 .services .serv-content .card:hover {
     background: #e6e6e6;
-    color:rgb(0, 122, 146);
+    color:#272727;
 }
 
 .services .serv-content .card .box {
@@ -320,7 +325,7 @@ section .title::after {
 }
 
 .services .serv-content .card:hover i {
-    color: rgb(0, 122, 146);
+    color: #272727;
 }
 
 .services .serv-content .card .text {
@@ -352,18 +357,18 @@ section .title::after {
 
 .skills .skills-content .left a {
     display: inline-block;
-    background: #a3a3a3;
+    background: #272727;
     color: #fff;
     font-size: 18px;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 7px;
-    border: 2px solid #a3a3a3;
+    border: 1px solid #272727;
     transition: all 0.3s ease-out;
 }
 
 .skills .skills-content .left a:hover {
-    color: #a3a3a3;
+    color: #272727;
     background: none;
 }
 
@@ -456,11 +461,12 @@ section .title::after {
     text-align: center;
     transition: all 0.3s ease;
     color: #000;
+    cursor: pointer;
     backdrop-filter: blur(10px);
 }
 
 .teams .carousel .card:hover {
-    background: #fbfeff;
+    background: #f0f0f0;
 }
 
 .teams .carousel .card .box {
@@ -503,7 +509,7 @@ section .title::after {
     width: 13px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #026b7e!important;
+    border: 1px solid #272727!important;
     margin: 0 5px;
     transition: all 0.3s ease;
 }
@@ -515,7 +521,7 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-    background: #026b7e!important;
+    background: #272727!important;
 }
 
 
@@ -555,7 +561,7 @@ section .title::after {
 
 .contact .contact-content .row i {
     font-size: 25px;
-    color: #026b7e;
+    color: #272727;
 }
 
 .contact .contact-content .info .head {
@@ -563,7 +569,7 @@ section .title::after {
 }
 
 .contact .contact-content .info .sub-title {
-    color: #333;
+    color: #272727;
 }
 
 .contact .right form .fields {
@@ -593,7 +599,7 @@ section .title::after {
 .contact .right form .textarea textarea {
     width: 100%;
     height: 100%;
-    border: 1px solid #026b7e;
+    border: 1px solid #272727;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -614,8 +620,8 @@ section .title::after {
 .contact .right form .button button {
     height: 100%;
     width: 100%;
-    border: 2px solid #026b7e;
-    background: #026b7e;
+    border: 1px solid #272727;
+    background: #272727;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -626,7 +632,7 @@ section .title::after {
 
 .contact .right form .button button:hover {
     background: none;
-    color: #026b7e;
+    color: #272727;
 }
 
 
@@ -634,7 +640,7 @@ section .title::after {
 
 footer {
     font-family: 'poppins', sans-serif;
-    background: #00a9c7b0;
+    background: #5f5f5fb0;
     padding: 20px 23px;
     color: #fff;
 }
@@ -677,6 +683,7 @@ footer span a:hover {
     }
     .menu-btn i.active:before {
         content: "\f00d";
+        color: #000;
     }
     .navbar .menu {
         position: fixed;
@@ -684,7 +691,7 @@ footer span a:hover {
         width: 100%;
         top: 0;
         left: -100%;
-        background: #f8f8f8cd;
+        background: #f8f8f8f0;
         text-align: center;
         padding-top: 80px;
         backdrop-filter: blur(10px);
@@ -700,7 +707,7 @@ footer span a:hover {
         display: inline-block;
         margin: 15px 0;
         font-size: 25px;
-        color: #000;
+        color: #000 !important;
     }
     .home .home-content .text-2 {
         font-size: 60px;
