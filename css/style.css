@@ -92,7 +92,7 @@ html {
 
 .navbar .menu li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -100,7 +100,7 @@ html {
 }
 
 .navbar.sticky .menu li a:hover {
-    color: #fff;
+    color: #cbf3f0;
 }
 
 .navbar .menu li a:hover {
@@ -144,18 +144,18 @@ html {
 
 .home .home-content a {
     display: inline-block;
-    background: #026b7e;
+    background: #a3a3a3;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 7px;
-    border: 2px solid #026b7e;
+    border: 2px solid #a3a3a3;
     transition: all 0.3s ease-out;
 }
 
 .home .home-content a:hover {
-    color: #026b7e;
+    color: #a3a3a3;
     background: transparent;
 }
 
@@ -248,19 +248,18 @@ section .title::after {
 
 .about .about-content .right a {
     display: inline-block;
-    background: #026b7e;
+    background: #a3a3a3;
     color: #fff;
     font-size: 20px;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 7px;
-    border: 2px solid #026b7e;
+    border: 2px solid #bcbcbc;
     transition: all 0.3s ease-out;
 }
 
 .about .about-content .right a:hover {
-    color: #026b7e;
-    ;
+    color: #b9b8b8;
     background: none;
 }
 
@@ -269,7 +268,7 @@ section .title::after {
 
 .services,
 .teams {
-    color: #fff;
+    color: rgb(0, 0, 0);
     background: rgb(205, 205, 205);
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -298,10 +297,12 @@ section .title::after {
     color:#000;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
+    box-shadow: 0 0 3px rgba(178, 178, 178, 0.557);
 }
 
 .services .serv-content .card:hover {
-    background: #026b7e;
+    background: #e6e6e6;
+    color:rgb(0, 122, 146);
 }
 
 .services .serv-content .card .box {
@@ -314,12 +315,12 @@ section .title::after {
 
 .services .serv-content .card i {
     font-size: 50px;
-    color: #026b7e;
+    color: #000000;
     transition: color 0.3s ease;
 }
 
 .services .serv-content .card:hover i {
-    color: #fff;
+    color: rgb(0, 122, 146);
 }
 
 .services .serv-content .card .text {
@@ -351,18 +352,18 @@ section .title::after {
 
 .skills .skills-content .left a {
     display: inline-block;
-    background: #026b7e;
+    background: #a3a3a3;
     color: #fff;
     font-size: 18px;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 7px;
-    border: 2px solid #026b7e;
+    border: 2px solid #a3a3a3;
     transition: all 0.3s ease-out;
 }
 
 .skills .skills-content .left a:hover {
-    color: #026b7e;
+    color: #a3a3a3;
     background: none;
 }
 
@@ -633,13 +634,13 @@ section .title::after {
 
 footer {
     font-family: 'poppins', sans-serif;
-    background: #111;
+    background: #00a9c7b0;
     padding: 20px 23px;
     color: #fff;
 }
 
 footer span a {
-    color: #026b7e;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -683,7 +684,7 @@ footer span a:hover {
         width: 100%;
         top: 0;
         left: -100%;
-        background: #f8f8f8a6;
+        background: #f8f8f8cd;
         text-align: center;
         padding-top: 80px;
         backdrop-filter: blur(10px);
