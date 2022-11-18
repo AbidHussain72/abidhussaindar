@@ -14,7 +14,7 @@ html {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #026b7e;
+    background: #01a0bc;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -36,7 +36,7 @@ html {
 }
 
 .menu-btn {
-    color: #fff;
+    color: #000;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -58,9 +58,10 @@ html {
 }
 
 .navbar.sticky {
-    background: #026b7e;
+    background: #00a9c7b0;
     padding: 10px 0;
     color: #fff;
+    backdrop-filter: blur(10px);
 }
 
 .navbar .max-width {
@@ -70,7 +71,7 @@ html {
 }
 
 .navbar .logo a {
-    color: #fff;
+    color: #151515;
     font-size: 35px;
     font-weight: 600;
 }
@@ -91,7 +92,7 @@ html {
 
 .navbar .menu li a {
     display: block;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -108,12 +109,12 @@ html {
 
 .home {
     display: flex;
-    background-color: #111;
+    background-color: rgb(243, 243, 243);
     /* background-repeat: no-repeat;
     background-size: cover; */
     height: 100vh;
     min-height: 500px;
-    color: #fff;
+    color: #000;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -269,30 +270,33 @@ section .title::after {
 .services,
 .teams {
     color: #fff;
-    background: #111;
+    background: rgb(205, 205, 205);
     margin-bottom: 20px;
     padding-bottom: 20px;
     margin-top: 20px;
+    backdrop-filter: blur(5px);
 }
 
 .services .title::before,
 .teams .title::before {
-    background: #fff;
+    background: #111;
 }
 
 .services .title::after,
 .teams .title::after {
-    background: #111;
+    background: rgb(205, 205, 205);
     content: 'what i provide';
 }
 
 .services .serv-content .card {
     width: calc(33% - 20px);
-    background: #222;
+    background: rgba(255, 255, 255, 0.79);
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
+    color:#000;
+    backdrop-filter: blur(10px);
     transition: all 0.3s ease;
 }
 
@@ -445,15 +449,17 @@ section .title::after {
 }
 
 .teams .carousel .card {
-    background: #222;
+    background: rgba(255, 255, 255, 0.877);
     border-radius: 6px;
-    padding: 25px 35px;
+    padding: 25px 10px;
     text-align: center;
     transition: all 0.3s ease;
+    color: #000;
+    backdrop-filter: blur(10px);
 }
 
 .teams .carousel .card:hover {
-    background: #0294ad;
+    background: #fbfeff;
 }
 
 .teams .carousel .card .box {
@@ -479,7 +485,6 @@ section .title::after {
     width: 200px;
     object-fit: cover;
     border-radius: 4px;
-    border: 6px groove #0294ad;
     transition: all 0.3s ease;
 }
 
@@ -678,9 +683,10 @@ footer span a:hover {
         width: 100%;
         top: 0;
         left: -100%;
-        background: #1a1a1a;
+        background: #f8f8f8a6;
         text-align: center;
         padding-top: 80px;
+        backdrop-filter: blur(10px);
         transition: all 0.3s ease-in-out;
     }
     .navbar .menu.active {
@@ -693,6 +699,7 @@ footer span a:hover {
         display: inline-block;
         margin: 15px 0;
         font-size: 25px;
+        color: #000;
     }
     .home .home-content .text-2 {
         font-size: 60px;
