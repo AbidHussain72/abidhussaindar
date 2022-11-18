@@ -9,12 +9,24 @@
 html {
     scroll-behavior: smooth;
 }
+html::-webkit-scrollbar {
+      width: 7px; 
+   }
+
+html::-webkit-scrollbar-track {
+    background-color: #272727;
+  }
+
+html::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 16px;
+  }
 
 .scroll-up-button {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #01a0bc;
+    background: #272727;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -79,13 +91,12 @@ html {
     color: #fff;
 }
 .navbar .logo a span {
-    
     color: #0264a1;
     transition: all 0.3s ease;
 }
 
 .navbar.sticky .logo a span {
-    color: #1982c4;
+    color: #83cfff;
 }
 
 .navbar .menu li {
@@ -101,9 +112,11 @@ html {
     margin-left: 25px;
     transition: color 0.3s ease;
 }
+
 .navbar.sticky .menu li a{
     color:#fff;
 }
+
 .navbar.sticky .menu li a:hover {
     color: #cbf3f0;
 }
@@ -444,6 +457,11 @@ section .title::after {
 .skills .skills-content .right .tailwind::before {
     width: 70%;
     border-radius: 10px;
+    background-color: #7cc2e7;
+}
+.skills .skills-content .right .php::before {
+    width: 70%;
+    border-radius: 10px;
     background-color: #94A3B8;
 }
 
@@ -680,6 +698,10 @@ footer span a:hover {
     .menu-btn {
         display: block;
         z-index: 999;
+        color: #000;
+    }
+    .navbar.sticky .menu-btn {
+        color: #fff;
     }
     .menu-btn i.active:before {
         content: "\f00d";
