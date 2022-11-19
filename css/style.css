@@ -347,6 +347,23 @@ section .title::after {
     margin: 10px 0 7px 0;
 }
 
+.youtubeLink{
+    padding: 0 !important;
+    background-color: transparent !important;
+    color: #0264a1 !important;
+    border: none !important;
+    font-size: 15px !important;
+    margin-left: 10px !important;
+
+}
+.youtubeLink:hover{
+    color: #1982c4 !important;
+    text-decoration: underline !important;
+}
+.codeLinks:hover{
+    text-decoration: underline;
+    color: #1982c4;
+}
 
 /* skills styling */
 
